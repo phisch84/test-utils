@@ -1,4 +1,4 @@
-package com.schoste.ddd.testing;
+package com.schoste.ddd.v1.testing;
 
 import java.util.Collection;
 import java.util.Map;

@@ -1,9 +1,11 @@
-package com.schoste.ddd.testing;
+package com.schoste.ddd.v1.testing;
 
 import java.io.File;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import com.schoste.ddd.v1.testing.TestFiles;
 
 public class TestFilesTest
 {

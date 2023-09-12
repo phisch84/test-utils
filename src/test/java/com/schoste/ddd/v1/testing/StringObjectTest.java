@@ -1,12 +1,14 @@
-package com.schoste.ddd.testing;
+package com.schoste.ddd.v1.testing;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.schoste.ddd.v1.testing.GenericObjectTest;
+
 /**
- * Tests the implementation of the {@link com.schoste.ddd.testing.GenericObjectTest} class
+ * Tests the implementation of the {@link com.schoste.ddd.v1.testing.GenericObjectTest} class
  * by testing {@link java.lang.String} objects.
  * 
  * @author Philipp Schosteritsch <s.philipp@schoste.com>

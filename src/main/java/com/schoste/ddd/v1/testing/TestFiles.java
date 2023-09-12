@@ -1,4 +1,4 @@
-package com.schoste.ddd.testing;
+package com.schoste.ddd.v1.testing;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
