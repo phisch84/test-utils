@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.schoste.ddd.domain</groupId>
-    <artifactId>Test-Utils</artifactId>
+    <artifactId>test-utils</artifactId>
     <version>0.2.RELEASE</version>
     <name>Testing Utilities</name>
     <url>https://www.schoste.com/</url>
@@ -17,19 +17,6 @@
         <maven.surfeire.version>2.16</maven.surfeire.version>
         <junit.version>4.12</junit.version>
     </properties>
-
-    <repositories>
-        <repository>
-            <id>schoste-com-releases</id>
-            <name>repo.schoste.com-releases</name>
-            <url>https://repo.schoste.com/artifactory/libs-release-local</url>
-        </repository>
-        <repository>
-            <id>schoste-com-snapshots</id>
-            <name>repo.schoste.com-snapshots</name>
-            <url>https://repo.schoste.com/artifactory/libs-snapshot-local</url>
-        </repository>
-    </repositories>
 
     <dependencies>
         <dependency>
@@ -67,4 +54,12 @@
             </plugins>
         </pluginManagement>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/phisch84/test-utils</url>
+        </repository>
+    </distributionManagement>
 </project>
