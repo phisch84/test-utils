@@ -1,11 +1,11 @@
-package com.schoste.ddd.v1.testing;
+package com.schoste.ddd.testing.v1;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.schoste.ddd.v1.testing.GenericObjectTest;
+import com.schoste.ddd.testing.v1.GenericObjectTest;
 
 /**
  * Tests the implementation of the {@link com.schoste.ddd.v1.testing.GenericObjectTest} class
